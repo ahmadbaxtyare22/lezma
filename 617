@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear kapu sor .</strong>
+                        <p>
+                           From the moment you came into my life, everything changed. i thank god god for having a girl like u sweet nice respectfull and pretty in my life, No matter where life takes us, I promise to be by your side To hold your hand through the storms and dance with you in the sunshine. To love you not just in the grand moments but in the quiet, everyday ones too. Because you are my greatest adventure
+I love you more than words can ever express, and I will spend a lifetime showing you just how much you mean to me.
+
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
